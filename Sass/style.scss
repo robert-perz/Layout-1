@@ -1,0 +1,17 @@
+@import "_hero_section";
+@import "_column_sections";
+@import "_footer";
+@import "_media_queries";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 80%;
+  max-width: 1150px;
+  margin: 0 auto;
+}

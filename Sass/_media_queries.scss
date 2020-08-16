@@ -1,0 +1,25 @@
+@media (min-width: 600px) {
+  .row {
+    display: flex;
+  }
+  .col + .col {
+    margin-left: 3em;
+  }
+  .three-col .col__txt,
+  .two-col .col__txt {
+    padding-bottom: 4em;
+  }
+  .two-col .p-t {
+    padding-top: 0;
+  }
+}
+@media (min-width: 900px) {
+  .hero {
+    &__title {
+      width: 70%;
+    }
+    &__txt {
+      width: 55%;
+    }
+  }
+}
